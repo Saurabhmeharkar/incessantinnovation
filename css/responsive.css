@@ -1,0 +1,97 @@
+@media(max-width: 991px) {
+    .header {
+        padding: 5px 0;
+    }
+
+    .header .navbar-nav {
+        text-align: center;
+    }
+
+    .header .navbar #collapsibleNavbar .nav-item .nav-link {
+        padding: 10px 20px 10px;
+    }
+
+    .header .navbar-light .navbar-toggler {
+        border: none;
+    }
+
+    .header .navbar-light .navbar-toggler i {
+        background-color: #fff;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 5px;
+        color: #07082d;
+    }
+
+    .header .navbar-light .navbar-toggler:focus {
+        outline: none;
+    }
+
+    .home-section {
+        padding: 170px 0px;
+    }
+
+    .home-section .home-img img {
+        margin-top: 35px;
+    }
+
+    .home-section .bg-shapes div:nth-child(1) {
+        height: 60px;
+        width: 60px;
+        top: 10%;
+        left: 70%;
+    }
+
+    .contact-section .contact-form textarea.form-control {
+        width: 96%;
+        margin-left: 15px;
+    }
+
+    footer .space {
+        justify-content: center;
+    }
+}
+
+@media(max-width: 500px) {
+    .heading h3 {
+        font-size: 2rem;
+    }
+
+    .home-section .home-content h1 {
+        font-size: 45px;
+    }
+
+    .service-section .service-item {
+        padding: 20px 10px;
+    }
+
+    .service-section .service-item h3 {
+        font-size: 18px;
+    }
+
+    .service-section .service-item p {
+        font-size: 13px;
+    }
+
+    .service-section .service-item img {
+        max-width: 65px;
+    }
+
+    .about-section .about-content p {
+        font-size: 1.2rem;
+    }
+
+    .contact-section .contact-form textarea.form-control {
+        width: 94%;
+    }
+}
+
+@media(max-width: 350px) {
+    .service-section .service-item h3 {
+        font-size: 16px;
+    }
+
+    .service-section .service-item p {
+        font-size: 12px;
+    }
+}
